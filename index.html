@@ -1,20 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LevaFritt</title>
-    
+
     <!-- Google Fonts för snyggare typsnitt -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="top-header">
-        <div class="logo-area">
+      <div class="logo-area">
         <!-- Tips: Om bilden inte laddas, ta bort snedstrecket i början så det blir src="Assets/LogotypHeder.webp" -->
         <img
           src="Assets/LogotypHeder.webp"
@@ -40,35 +43,78 @@
         </p>
       </section>
 
-        <section class="actions-section" id="action-cards">
-            <h2 class="section-title">Vad vill du läsa?</h2>
-            <div class="action-grid">
-                
-                <div class="action-card">
-                    <!-- Rätt sökväg utan snedstreck i början -->
-                    <div class="image-placeholder"><img src="Assets/honor2.jpg" alt="Honor" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                    <h3>Historien om kontroll</h3>
-                    <p>Utforska hur historiska lagar, som i det feodala Japan, styrde kvinnors rätt att gifta sig och leva fritt.</p>
-                    <a href="#section1" class="arrow-btn">&#8594;</a>
-                </div>
+      <section class="actions-section" id="action-cards">
+        <h2 class="section-title">Vad vill du läsa?</h2>
+        <div class="action-grid">
+          <div class="action-card">
+            <!-- Rätt sökväg utan snedstreck i början -->
+            <div class="image-placeholder">
+              <img
+                src="Assets/honor2.jpg"
+                alt="Honor"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  border-radius: 8px;
+                "
+              />
+            </div>
+            <h3>Historien om kontroll</h3>
+            <p>
+              Utforska hur historiska lagar, som i det feodala Japan, styrde
+              kvinnors rätt att gifta sig och leva fritt.
+            </p>
+            <a href="#section1" class="arrow-btn">&#8594;</a>
+          </div>
 
-                <div class="action-card">
-                    <div class="image-placeholder"><img src="Assets/orestes1.jpeg" alt="Förtryck" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                    <h3>Tecken på förtryck</h3>
-                    <p>Lär dig identifiera subtila och tydliga tecken på hedersförtryck i vardagliga relationer och familjestrukturer.</p>
-                    <a href="#section2" class="arrow-btn">&#8594;</a>
-                </div>
+          <div class="action-card">
+            <div class="image-placeholder">
+              <img
+                src="Assets/orestes1.jpeg"
+                alt="Förtryck"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  border-radius: 8px;
+                "
+              />
+            </div>
+            <h3>Tecken på förtryck</h3>
+            <p>
+              Lär dig identifiera subtila och tydliga tecken på hedersförtryck i
+              vardagliga relationer och familjestrukturer.
+            </p>
+            <a href="#section2" class="arrow-btn">&#8594;</a>
+          </div>
 
-                <div class="action-card">
-                    <!-- Tips: Loggan är snygg, men du kanske vill ha en annan bild här senare för att representera "Stöd" -->
-                    <div class="image-placeholder"><img src="Assets/LogotypHeder.webp" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;"></div>
-                    <h3>Kontakta oss för hjälp</h3>
-                    <p>Har du frågor? Här hittar du information om var, hur och hos vem du kan söka stöd om du är utsatt.</p>
-                    <a href="#section3" class="arrow-btn">&#8594;</a>
-                </div>
-
-            </div> <!-- HÄR STÄNGDES ACTION-GRID -->
-        </section> <!-- HÄR STÄNGDES ACTIONS-SEKTION -->
+          <div class="action-card">
+            <!-- Tips: Loggan är snygg, men du kanske vill ha en annan bild här senare för att representera "Stöd" -->
+            <div class="image-placeholder">
+              <img
+                src="Assets/LogotypHeder.webp"
+                alt="Logo"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                  border-radius: 8px;
+                  padding: 20px;
+                "
+              />
+            </div>
+            <h3>Kontakta oss för hjälp</h3>
+            <p>
+              Har du frågor? Här hittar du information om var, hur och hos vem
+              du kan söka stöd om du är utsatt.
+            </p>
+            <a href="#section3" class="arrow-btn">&#8594;</a>
+          </div>
+        </div>
+        <!-- HÄR STÄNGDES ACTION-GRID -->
+      </section>
+      <!-- HÄR STÄNGDES ACTIONS-SEKTION -->
 
       <section class="content-section" id="section1">
         <div class="image-placeholder">
