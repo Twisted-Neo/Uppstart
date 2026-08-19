@@ -156,6 +156,7 @@ a {
   color: #888;
   margin-bottom: 20px;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .action-card h3 {
@@ -184,6 +185,8 @@ a {
   align-self: flex-end;
   font-size: 1.1rem;
   transition: var(--transition);
+  border: none;
+  cursor: pointer;
 }
 .arrow-btn:hover {
   background-color: var(--dark-blue);
@@ -198,6 +201,7 @@ a {
   max-width: 1000px;
   margin: 0 auto;
   border-bottom: 1px solid #eee;
+  scroll-margin-top: 80px;
 }
 .content-section:last-of-type {
   border-bottom: none;
@@ -213,6 +217,7 @@ a {
   height: 300px;
   border-radius: var(--border-radius);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
 .content-section .text-content {
